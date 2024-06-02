@@ -3,20 +3,20 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.OWNER_NUMBER.split "917439317360"
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://KUSHAN:5000@cluster0.zji09ho.mongodb.net/"
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/kushansewmina1234/DARK-SHAN-MD'
 global.location = 'pakistan'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '9471234567'
-global.devs = '94772108460';
+global.sudo = process.env.SUDO || '917439317360'
+global.devs = '917439317360';
 global.website = 'https://github.com/kushansewmina1234/DARK-SHAN-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ee0f303f5da6d86d024e0.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'DARK-SHAN-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'DARKSHAN' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'ADRIEN-MD' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'ADRIEN' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'DARKSHAN' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
@@ -25,7 +25,7 @@ module.exports = {
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'fuck' : process.env.ANTI_BAD_WORD,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   ANTI_LINK: process.env.ANTI_LINK === undefined ? false : process.env.ALWAYS_ONLINE,
   WAPRESENCE:process.env.WAPRESENCE === undefined ? false : process.env.WAPRESENCE, // 'composing' (typing) | 'recording' (recording) | 'paused'	
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? true : process.env.AUTO_STATUS_SAVER,
